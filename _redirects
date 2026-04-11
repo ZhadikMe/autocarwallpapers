@@ -1,0 +1,6 @@
+# WordPress -> static redirects
+/index.php    /index.html  301
+/feed/        /            301
+/wp-login.php /            301
+/wp-admin/    /            301
+/:slug/       /:slug.html  301
